@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF232D751D49ED13003BD8AA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AF232D741D49ED13003BD8AA /* Podfile */; };
+		AF79BA871D45E74400CAFCC0 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF79BA861D45E74400CAFCC0 /* Settings.plist */; };
+		AF79BA891D461B1100CAFCC0 /* WelcomeSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA881D461B1100CAFCC0 /* WelcomeSplashScreen.swift */; };
+		AF79BA8D1D4657A700CAFCC0 /* MobikHserver.crt in Resources */ = {isa = PBXBuildFile; fileRef = AF79BA8B1D4657A700CAFCC0 /* MobikHserver.crt */; };
+		AF79BA8E1D4657A700CAFCC0 /* mobikserv.crt in Resources */ = {isa = PBXBuildFile; fileRef = AF79BA8C1D4657A700CAFCC0 /* mobikserv.crt */; };
+		AF79BA911D4772A600CAFCC0 /* PasswordRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA901D4772A600CAFCC0 /* PasswordRecoveryViewController.swift */; };
+		AF79BA951D47738500CAFCC0 /* RegistrationUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA941D47738500CAFCC0 /* RegistrationUserViewController.swift */; };
+		AF79BA971D4773CA00CAFCC0 /* RegistrationUserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA961D4773CA00CAFCC0 /* RegistrationUserDetailViewController.swift */; };
+		AF79BA991D47749100CAFCC0 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA981D47749100CAFCC0 /* PaymentViewController.swift */; };
+		AF79BA9B1D4774EC00CAFCC0 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA9A1D4774EC00CAFCC0 /* AddressViewController.swift */; };
+		AF79BA9D1D47755B00CAFCC0 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA9C1D47755B00CAFCC0 /* CounterViewController.swift */; };
+		AF79BA9F1D4775CA00CAFCC0 /* IntroScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA9E1D4775CA00CAFCC0 /* IntroScreenViewController.swift */; };
+		AF79BAA11D4775E200CAFCC0 /* UserAutorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BAA01D4775E200CAFCC0 /* UserAutorizationViewController.swift */; };
+		AF79BAA31D47765200CAFCC0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BAA21D47765200CAFCC0 /* Settings.swift */; };
+		AFFF32D21D3CB376003E2A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF32D11D3CB376003E2A90 /* AppDelegate.swift */; };
+		AFFF32D41D3CB376003E2A90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF32D31D3CB376003E2A90 /* ViewController.swift */; };
+		AFFF32D71D3CB376003E2A90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFF32D51D3CB376003E2A90 /* Main.storyboard */; };
+		AFFF32DA1D3CB376003E2A90 /* Energy_Wallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFFF32D81D3CB376003E2A90 /* Energy_Wallet.xcdatamodeld */; };
+		AFFF32DC1D3CB376003E2A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFF32DB1D3CB376003E2A90 /* Assets.xcassets */; };
+		AFFF32DF1D3CB376003E2A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFF32DD1D3CB376003E2A90 /* LaunchScreen.storyboard */; };
+		AFFF32EA1D3CB376003E2A90 /* Energy_WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF32E91D3CB376003E2A90 /* Energy_WalletTests.swift */; };
+		AFFF32F51D3CB376003E2A90 /* Energy_WalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF32F41D3CB376003E2A90 /* Energy_WalletUITests.swift */; };
+		DE8A3E60BF4F87F2F191A6D6 /* Pods_Energy_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E184D85A53FDFBE2426120B /* Pods_Energy_Wallet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFFF32E61D3CB376003E2A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFFF32C61D3CB376003E2A90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFF32CD1D3CB376003E2A90;
+			remoteInfo = "Energy Wallet";
+		};
+		AFFF32F11D3CB376003E2A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFFF32C61D3CB376003E2A90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFF32CD1D3CB376003E2A90;
+			remoteInfo = "Energy Wallet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF3CF4291D48DAD200E9FC20 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		038DEC2B8A23D0FDE226DF36 /* Pods-Energy Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy Wallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Energy Wallet/Pods-Energy Wallet.debug.xcconfig"; sourceTree = "<group>"; };
+		3E184D85A53FDFBE2426120B /* Pods_Energy_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Energy_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF232D731D49ECED003BD8AA /* Energy Wallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Energy Wallet-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF232D741D49ED13003BD8AA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF79BA861D45E74400CAFCC0 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		AF79BA881D461B1100CAFCC0 /* WelcomeSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSplashScreen.swift; sourceTree = "<group>"; };
+		AF79BA8B1D4657A700CAFCC0 /* MobikHserver.crt */ = {isa = PBXFileReference; lastKnownFileType = file; path = MobikHserver.crt; sourceTree = "<group>"; };
+		AF79BA8C1D4657A700CAFCC0 /* mobikserv.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mobikserv.crt; sourceTree = "<group>"; };
+		AF79BA901D4772A600CAFCC0 /* PasswordRecoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRecoveryViewController.swift; sourceTree = "<group>"; };
+		AF79BA941D47738500CAFCC0 /* RegistrationUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationUserViewController.swift; sourceTree = "<group>"; };
+		AF79BA961D4773CA00CAFCC0 /* RegistrationUserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationUserDetailViewController.swift; sourceTree = "<group>"; };
+		AF79BA981D47749100CAFCC0 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		AF79BA9A1D4774EC00CAFCC0 /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		AF79BA9C1D47755B00CAFCC0 /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		AF79BA9E1D4775CA00CAFCC0 /* IntroScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreenViewController.swift; sourceTree = "<group>"; };
+		AF79BAA01D4775E200CAFCC0 /* UserAutorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAutorizationViewController.swift; sourceTree = "<group>"; };
+		AF79BAA21D47765200CAFCC0 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AFFF32CE1D3CB376003E2A90 /* Energy Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Energy Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFF32D11D3CB376003E2A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFFF32D31D3CB376003E2A90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFFF32D61D3CB376003E2A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFFF32D91D3CB376003E2A90 /* Energy_Wallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Energy_Wallet.xcdatamodel; sourceTree = "<group>"; };
+		AFFF32DB1D3CB376003E2A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFFF32DE1D3CB376003E2A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFFF32E01D3CB376003E2A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFF32E51D3CB376003E2A90 /* Energy WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Energy WalletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFF32E91D3CB376003E2A90 /* Energy_WalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_WalletTests.swift; sourceTree = "<group>"; };
+		AFFF32EB1D3CB376003E2A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFF32F01D3CB376003E2A90 /* Energy WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Energy WalletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFF32F41D3CB376003E2A90 /* Energy_WalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_WalletUITests.swift; sourceTree = "<group>"; };
+		AFFF32F61D3CB376003E2A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A2D035B636A6081AB1E5A1 /* Pods-Energy Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy Wallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Energy Wallet/Pods-Energy Wallet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFF32CB1D3CB376003E2A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8A3E60BF4F87F2F191A6D6 /* Pods_Energy_Wallet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF32E21D3CB376003E2A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF32ED1D3CB376003E2A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0847435401B5A449545A5B4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E184D85A53FDFBE2426120B /* Pods_Energy_Wallet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		923F05BFB52C8A3183C3D35C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				038DEC2B8A23D0FDE226DF36 /* Pods-Energy Wallet.debug.xcconfig */,
+				B5A2D035B636A6081AB1E5A1 /* Pods-Energy Wallet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF79BA8A1D46576600CAFCC0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AF79BA8B1D4657A700CAFCC0 /* MobikHserver.crt */,
+				AF79BA8C1D4657A700CAFCC0 /* mobikserv.crt */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		AFFF32C51D3CB376003E2A90 = {
+			isa = PBXGroup;
+			children = (
+				AF232D741D49ED13003BD8AA /* Podfile */,
+				AFFF32D01D3CB376003E2A90 /* Energy Wallet */,
+				AFFF32E81D3CB376003E2A90 /* Energy WalletTests */,
+				AFFF32F31D3CB376003E2A90 /* Energy WalletUITests */,
+				AFFF32CF1D3CB376003E2A90 /* Products */,
+				923F05BFB52C8A3183C3D35C /* Pods */,
+				0847435401B5A449545A5B4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFF32CF1D3CB376003E2A90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF32CE1D3CB376003E2A90 /* Energy Wallet.app */,
+				AFFF32E51D3CB376003E2A90 /* Energy WalletTests.xctest */,
+				AFFF32F01D3CB376003E2A90 /* Energy WalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFF32D01D3CB376003E2A90 /* Energy Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				AF79BA8A1D46576600CAFCC0 /* Resource */,
+				AF79BA861D45E74400CAFCC0 /* Settings.plist */,
+				AF79BAA21D47765200CAFCC0 /* Settings.swift */,
+				AFFF32D11D3CB376003E2A90 /* AppDelegate.swift */,
+				AFFF32D31D3CB376003E2A90 /* ViewController.swift */,
+				AF79BA881D461B1100CAFCC0 /* WelcomeSplashScreen.swift */,
+				AF79BA9E1D4775CA00CAFCC0 /* IntroScreenViewController.swift */,
+				AF79BAA01D4775E200CAFCC0 /* UserAutorizationViewController.swift */,
+				AF79BA901D4772A600CAFCC0 /* PasswordRecoveryViewController.swift */,
+				AF79BA941D47738500CAFCC0 /* RegistrationUserViewController.swift */,
+				AF79BA961D4773CA00CAFCC0 /* RegistrationUserDetailViewController.swift */,
+				AF79BA981D47749100CAFCC0 /* PaymentViewController.swift */,
+				AF79BA9A1D4774EC00CAFCC0 /* AddressViewController.swift */,
+				AF79BA9C1D47755B00CAFCC0 /* CounterViewController.swift */,
+				AFFF32D51D3CB376003E2A90 /* Main.storyboard */,
+				AFFF32DB1D3CB376003E2A90 /* Assets.xcassets */,
+				AFFF32DD1D3CB376003E2A90 /* LaunchScreen.storyboard */,
+				AFFF32E01D3CB376003E2A90 /* Info.plist */,
+				AFFF32D81D3CB376003E2A90 /* Energy_Wallet.xcdatamodeld */,
+				AF232D731D49ECED003BD8AA /* Energy Wallet-Bridging-Header.h */,
+			);
+			path = "Energy Wallet";
+			sourceTree = "<group>";
+		};
+		AFFF32E81D3CB376003E2A90 /* Energy WalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF32E91D3CB376003E2A90 /* Energy_WalletTests.swift */,
+				AFFF32EB1D3CB376003E2A90 /* Info.plist */,
+			);
+			path = "Energy WalletTests";
+			sourceTree = "<group>";
+		};
+		AFFF32F31D3CB376003E2A90 /* Energy WalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF32F41D3CB376003E2A90 /* Energy_WalletUITests.swift */,
+				AFFF32F61D3CB376003E2A90 /* Info.plist */,
+			);
+			path = "Energy WalletUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFF32CD1D3CB376003E2A90 /* Energy Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF32F91D3CB376003E2A90 /* Build configuration list for PBXNativeTarget "Energy Wallet" */;
+			buildPhases = (
+				31A7BCB61DD69B465B478C6F /* 📦 Check Pods Manifest.lock */,
+				AFFF32CA1D3CB376003E2A90 /* Sources */,
+				AFFF32CB1D3CB376003E2A90 /* Frameworks */,
+				AFFF32CC1D3CB376003E2A90 /* Resources */,
+				AF3CF4291D48DAD200E9FC20 /* Embed Frameworks */,
+				36515BA2AA11132DA3834B02 /* 📦 Embed Pods Frameworks */,
+				F5628E019AA5C74EA0D6DB96 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Energy Wallet";
+			productName = "Energy Wallet";
+			productReference = AFFF32CE1D3CB376003E2A90 /* Energy Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFFF32E41D3CB376003E2A90 /* Energy WalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF32FC1D3CB376003E2A90 /* Build configuration list for PBXNativeTarget "Energy WalletTests" */;
+			buildPhases = (
+				AFFF32E11D3CB376003E2A90 /* Sources */,
+				AFFF32E21D3CB376003E2A90 /* Frameworks */,
+				AFFF32E31D3CB376003E2A90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFF32E71D3CB376003E2A90 /* PBXTargetDependency */,
+			);
+			name = "Energy WalletTests";
+			productName = "Energy WalletTests";
+			productReference = AFFF32E51D3CB376003E2A90 /* Energy WalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFFF32EF1D3CB376003E2A90 /* Energy WalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF32FF1D3CB376003E2A90 /* Build configuration list for PBXNativeTarget "Energy WalletUITests" */;
+			buildPhases = (
+				AFFF32EC1D3CB376003E2A90 /* Sources */,
+				AFFF32ED1D3CB376003E2A90 /* Frameworks */,
+				AFFF32EE1D3CB376003E2A90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFF32F21D3CB376003E2A90 /* PBXTargetDependency */,
+			);
+			name = "Energy WalletUITests";
+			productName = "Energy WalletUITests";
+			productReference = AFFF32F01D3CB376003E2A90 /* Energy WalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFF32C61D3CB376003E2A90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Diy2210;
+				TargetAttributes = {
+					AFFF32CD1D3CB376003E2A90 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2TX55547ZG;
+					};
+					AFFF32E41D3CB376003E2A90 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2TX55547ZG;
+						TestTargetID = AFFF32CD1D3CB376003E2A90;
+					};
+					AFFF32EF1D3CB376003E2A90 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2TX55547ZG;
+						TestTargetID = AFFF32CD1D3CB376003E2A90;
+					};
+				};
+			};
+			buildConfigurationList = AFFF32C91D3CB376003E2A90 /* Build configuration list for PBXProject "Energy Wallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFFF32C51D3CB376003E2A90;
+			productRefGroup = AFFF32CF1D3CB376003E2A90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFF32CD1D3CB376003E2A90 /* Energy Wallet */,
+				AFFF32E41D3CB376003E2A90 /* Energy WalletTests */,
+				AFFF32EF1D3CB376003E2A90 /* Energy WalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFF32CC1D3CB376003E2A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFF32DF1D3CB376003E2A90 /* LaunchScreen.storyboard in Resources */,
+				AF79BA871D45E74400CAFCC0 /* Settings.plist in Resources */,
+				AF79BA8D1D4657A700CAFCC0 /* MobikHserver.crt in Resources */,
+				AFFF32DC1D3CB376003E2A90 /* Assets.xcassets in Resources */,
+				AF79BA8E1D4657A700CAFCC0 /* mobikserv.crt in Resources */,
+				AF232D751D49ED13003BD8AA /* Podfile in Resources */,
+				AFFF32D71D3CB376003E2A90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF32E31D3CB376003E2A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF32EE1D3CB376003E2A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A7BCB61DD69B465B478C6F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36515BA2AA11132DA3834B02 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Energy Wallet/Pods-Energy Wallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5628E019AA5C74EA0D6DB96 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Energy Wallet/Pods-Energy Wallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFF32CA1D3CB376003E2A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF79BA891D461B1100CAFCC0 /* WelcomeSplashScreen.swift in Sources */,
+				AF79BA971D4773CA00CAFCC0 /* RegistrationUserDetailViewController.swift in Sources */,
+				AF79BAA31D47765200CAFCC0 /* Settings.swift in Sources */,
+				AF79BA9F1D4775CA00CAFCC0 /* IntroScreenViewController.swift in Sources */,
+				AFFF32DA1D3CB376003E2A90 /* Energy_Wallet.xcdatamodeld in Sources */,
+				AF79BA9B1D4774EC00CAFCC0 /* AddressViewController.swift in Sources */,
+				AF79BA951D47738500CAFCC0 /* RegistrationUserViewController.swift in Sources */,
+				AFFF32D41D3CB376003E2A90 /* ViewController.swift in Sources */,
+				AF79BA911D4772A600CAFCC0 /* PasswordRecoveryViewController.swift in Sources */,
+				AF79BA991D47749100CAFCC0 /* PaymentViewController.swift in Sources */,
+				AF79BA9D1D47755B00CAFCC0 /* CounterViewController.swift in Sources */,
+				AF79BAA11D4775E200CAFCC0 /* UserAutorizationViewController.swift in Sources */,
+				AFFF32D21D3CB376003E2A90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF32E11D3CB376003E2A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFF32EA1D3CB376003E2A90 /* Energy_WalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF32EC1D3CB376003E2A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFF32F51D3CB376003E2A90 /* Energy_WalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFFF32E71D3CB376003E2A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFFF32CD1D3CB376003E2A90 /* Energy Wallet */;
+			targetProxy = AFFF32E61D3CB376003E2A90 /* PBXContainerItemProxy */;
+		};
+		AFFF32F21D3CB376003E2A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFFF32CD1D3CB376003E2A90 /* Energy Wallet */;
+			targetProxy = AFFF32F11D3CB376003E2A90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFFF32D51D3CB376003E2A90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFF32D61D3CB376003E2A90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFFF32DD1D3CB376003E2A90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFF32DE1D3CB376003E2A90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFFF32F71D3CB376003E2A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFFF32F81D3CB376003E2A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFFF32FA1D3CB376003E2A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038DEC2B8A23D0FDE226DF36 /* Pods-Energy Wallet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Energy Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diy2210.Energy-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Energy Wallet/Energy Wallet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFFF32FB1D3CB376003E2A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A2D035B636A6081AB1E5A1 /* Pods-Energy Wallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Energy Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diy2210.Energy-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Energy Wallet/Energy Wallet-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AFFF32FD1D3CB376003E2A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Energy WalletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diy2210.Energy-WalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Energy Wallet.app/Energy Wallet";
+			};
+			name = Debug;
+		};
+		AFFF32FE1D3CB376003E2A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Energy WalletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diy2210.Energy-WalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Energy Wallet.app/Energy Wallet";
+			};
+			name = Release;
+		};
+		AFFF33001D3CB376003E2A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Energy WalletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diy2210.Energy-WalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Energy Wallet";
+			};
+			name = Debug;
+		};
+		AFFF33011D3CB376003E2A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Energy WalletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diy2210.Energy-WalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Energy Wallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFF32C91D3CB376003E2A90 /* Build configuration list for PBXProject "Energy Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF32F71D3CB376003E2A90 /* Debug */,
+				AFFF32F81D3CB376003E2A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF32F91D3CB376003E2A90 /* Build configuration list for PBXNativeTarget "Energy Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF32FA1D3CB376003E2A90 /* Debug */,
+				AFFF32FB1D3CB376003E2A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF32FC1D3CB376003E2A90 /* Build configuration list for PBXNativeTarget "Energy WalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF32FD1D3CB376003E2A90 /* Debug */,
+				AFFF32FE1D3CB376003E2A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF32FF1D3CB376003E2A90 /* Build configuration list for PBXNativeTarget "Energy WalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF33001D3CB376003E2A90 /* Debug */,
+				AFFF33011D3CB376003E2A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFFF32D81D3CB376003E2A90 /* Energy_Wallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFFF32D91D3CB376003E2A90 /* Energy_Wallet.xcdatamodel */,
+			);
+			currentVersion = AFFF32D91D3CB376003E2A90 /* Energy_Wallet.xcdatamodel */;
+			path = Energy_Wallet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFFF32C61D3CB376003E2A90 /* Project object */;
+}

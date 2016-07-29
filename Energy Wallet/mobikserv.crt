@@ -1,0 +1,56 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 1441828 (0x160024)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: O=BankCENTER, OU=ITMOBIK, L=Odessa, ST=Odessa region, C=UA
+        Validity
+            Not Before: Jun 23 07:11:24 2016 GMT
+            Not After : Jun 23 07:11:24 2019 GMT
+        Subject: C=UA, ST=Odessa region, O=BankCENTER, OU=ITMOBIK
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:e0:7b:53:d7:e2:18:46:db:fa:06:c4:bd:a1:0a:
+                    ea:3a:c3:5a:91:ba:39:db:19:bf:6a:fe:4f:2d:67:
+                    c3:d5:10:7a:de:42:36:38:8b:8a:66:dd:09:f1:94:
+                    21:e6:69:ca:3a:3b:15:9b:e1:81:15:e9:c7:56:7e:
+                    46:47:78:50:be:9a:62:b9:7a:f8:f9:70:a4:63:70:
+                    01:ed:71:2a:14:be:15:4a:8d:34:ad:f7:47:ec:b8:
+                    42:3d:2a:24:f2:38:47:13:3e:6e:8d:ac:45:83:f8:
+                    c6:4f:c5:3e:20:56:81:14:fd:c7:78:b9:47:e7:e9:
+                    96:b1:02:53:40:31:e4:c7:05
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha1WithRSAEncryption
+        89:eb:a5:94:34:74:b2:9f:9a:68:93:e6:20:76:13:93:a8:bc:
+        ae:31:70:10:6d:0f:d9:43:6f:57:80:fc:7c:d2:c2:36:0b:b1:
+        80:dc:51:50:76:17:d6:6d:e9:f4:0d:4d:15:4f:aa:83:14:6a:
+        d1:8b:ce:71:23:a5:cd:f0:b2:a1:8a:3a:13:b1:ba:4d:4e:5e:
+        52:17:a7:fe:46:37:4a:08:c3:70:1b:32:91:a4:67:7c:f8:23:
+        c3:d7:e8:7b:c7:e0:00:2e:30:8a:46:25:3f:7e:97:92:c8:db:
+        87:ad:3a:ee:3e:ea:fa:fe:2e:7e:40:13:05:41:3f:ec:64:56:
+        3e:a5:b8:64:93:99:97:0a:2a:60:f2:47:08:06:d4:85:8a:68:
+        cd:e0:8c:6f:98:bf:84:16:4b:7f:26:79:eb:3a:f7:42:05:9f:
+        14:2c:7b:f6:07:4c:b2:18:6b:c1:ba:5a:31:a5:52:b4:d6:93:
+        09:e0:a6:9a:28:5f:03:97:9d:c4:00:4a:de:57:43:9b:cd:2d:
+        40:fb:2f:3f:5d:e8:2e:f4:c9:7e:b4:f1:a7:cd:8d:1b:e6:13:
+        9d:bb:03:ea:85:25:be:8f:92:b4:4a:49:cd:50:46:3f:4a:dd:
+        74:c9:cc:d8:96:7c:23:e4:05:b7:e1:97:23:15:e7:8b:9a:d8:
+        4c:e3:c6:c5
+-----BEGIN CERTIFICATE-----
+MIICmzCCAYMCAxYAJDANBgkqhkiG9w0BAQUFADBdMRMwEQYDVQQKEwpCYW5rQ0VO
+VEVSMRAwDgYDVQQLEwdJVE1PQklLMQ8wDQYDVQQHEwZPZGVzc2ExFjAUBgNVBAgT
+DU9kZXNzYSByZWdpb24xCzAJBgNVBAYTAlVBMB4XDTE2MDYyMzA3MTEyNFoXDTE5
+MDYyMzA3MTEyNFowTDELMAkGA1UEBhMCVUExFjAUBgNVBAgTDU9kZXNzYSByZWdp
+b24xEzARBgNVBAoTCkJhbmtDRU5URVIxEDAOBgNVBAsTB0lUTU9CSUswgZ8wDQYJ
+KoZIhvcNAQEBBQADgY0AMIGJAoGBAOB7U9fiGEbb+gbEvaEK6jrDWpG6OdsZv2r+
+Ty1nw9UQet5CNjiLimbdCfGUIeZpyjo7FZvhgRXpx1Z+Rkd4UL6aYrl6+PlwpGNw
+Ae1xKhS+FUqNNK33R+y4Qj0qJPI4RxM+bo2sRYP4xk/FPiBWgRT9x3i5R+fplrEC
+U0Ax5McFAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAInrpZQ0dLKfmmiT5iB2E5Oo
+vK4xcBBtD9lDb1eA/HzSwjYLsYDcUVB2F9Zt6fQNTRVPqoMUatGLznEjpc3wsqGK
+OhOxuk1OXlIXp/5GN0oIw3AbMpGkZ3z4I8PX6HvH4AAuMIpGJT9+l5LI24etOu4+
+6vr+Ln5AEwVBP+xkVj6luGSTmZcKKmDyRwgG1IWKaM3gjG+Yv4QWS38mees690IF
+nxQse/YHTLIYa8G6WjGlUrTWkwngppooXwOXncQASt5XQ5vNLUD7Lz9d6C70yX60
+8afNjRvmE527A+qFJb6PkrRKSc1QRj9K3XTJzNiWfCPkBbfhlyMV54ua2EzjxsU=
+-----END CERTIFICATE-----
