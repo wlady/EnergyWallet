@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027C0E7C1D4B1DCA00D35B77 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 027C0E7B1D4B1DCA00D35B77 /* README.md */; };
 		AF232D751D49ED13003BD8AA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AF232D741D49ED13003BD8AA /* Podfile */; };
 		AF79BA871D45E74400CAFCC0 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF79BA861D45E74400CAFCC0 /* Settings.plist */; };
 		AF79BA891D461B1100CAFCC0 /* WelcomeSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79BA881D461B1100CAFCC0 /* WelcomeSplashScreen.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		027C0E7B1D4B1DCA00D35B77 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		038DEC2B8A23D0FDE226DF36 /* Pods-Energy Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy Wallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Energy Wallet/Pods-Energy Wallet.debug.xcconfig"; sourceTree = "<group>"; };
 		3E184D85A53FDFBE2426120B /* Pods_Energy_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Energy_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF232D731D49ECED003BD8AA /* Energy Wallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Energy Wallet-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		AFFF32C51D3CB376003E2A90 = {
 			isa = PBXGroup;
 			children = (
+				027C0E7B1D4B1DCA00D35B77 /* README.md */,
 				AF232D741D49ED13003BD8AA /* Podfile */,
 				AFFF32D01D3CB376003E2A90 /* Energy Wallet */,
 				AFFF32E81D3CB376003E2A90 /* Energy WalletTests */,
@@ -417,6 +420,7 @@
 				AFFF32D41D3CB376003E2A90 /* ViewController.swift in Sources */,
 				AF79BA911D4772A600CAFCC0 /* PasswordRecoveryViewController.swift in Sources */,
 				AF79BA991D47749100CAFCC0 /* PaymentViewController.swift in Sources */,
+				027C0E7C1D4B1DCA00D35B77 /* README.md in Sources */,
 				AF79BA9D1D47755B00CAFCC0 /* CounterViewController.swift in Sources */,
 				AF79BAA11D4775E200CAFCC0 /* UserAutorizationViewController.swift in Sources */,
 				AFFF32D21D3CB376003E2A90 /* AppDelegate.swift in Sources */,
